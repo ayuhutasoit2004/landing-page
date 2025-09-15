@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-pink-600 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold">MyPortfolio</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+        <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+        <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+        <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gray-100">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 py-16">
+      <div class="flex-1 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Hi, I’m <span class="text-pink-600">Ayu</span></h2>
+        <p class="text-lg mb-6">I’m a freelance <b>Web Developer</b> specialized in modern and responsive design. Let’s build something great together!</p>
+        <a href="#contact" class="bg-pink-600 text-white px-6 py-3 rounded-lg shadow hover:bg-pink-700">Hire Me</a>
+      </div>
+      <div class="flex-1 mt-8 md:mt-0 flex justify-center">
+        <img src="https://via.placeholder.com/300" alt="Profile" class="rounded-full shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">My Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold mb-4">Web Design</h3>
+          <p>Modern and responsive web designs that bring your ideas to life.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold mb-4">Frontend Development</h3>
+          <p>Clean and optimized code using React, Bootstrap, and Tailwind.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold mb-4">SEO Optimization</h3>
+          <p>Boost your website visibility with proper SEO practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-50 py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">My Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Sistem Akademik</h3>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">E-Commerce Website</h3>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Portfolio Website</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <p class="mb-6">Get in touch with me via email or WhatsApp</p>
+      <div class="space-y-3">
+        <p>Email: <a href="mailto:emailanda@example.com" class="text-pink-600 hover:underline">emailanda@example.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank" class="text-pink-600 hover:underline">+62 812-3456-7890</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-600 text-white text-center py-4">
+    <p>&copy; 2025 Ayu - All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
